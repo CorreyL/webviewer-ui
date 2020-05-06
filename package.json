@@ -14,7 +14,8 @@
     "lint": "eslint ./src/**/*.js",
     "lint:fix": "eslint --fix ./src/**/*.js",
     "start": "npx babel-node ./dev-server.js",
-    "test": "npx babel-node ./test-server.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "translation": "node ./scripts/translate-i18n-files.js"
   },
   "dependencies": {
@@ -52,6 +53,7 @@
     "@google-cloud/translate": "^5.1.4",
     "@hot-loader/react-dom": "^16.11.0",
     "@pdftron/webviewer-downloader": "^1.4.2",
+    "@testing-library/react": "^10.0.4",
     "babel-eslint": "^10.0.3",
     "babel-loader": "^8.0.6",
     "body-parser": "^1.19.0",
@@ -71,6 +73,7 @@
     "express": "^4.17.1",
     "file-loader": "^5.0.2",
     "ip": "^1.1.5",
+    "jest": "^26.0.1",
     "mini-css-extract-plugin": "0.8.0",
     "opn": "^6.0.0",
     "postcss-import": "^12.0.1",
