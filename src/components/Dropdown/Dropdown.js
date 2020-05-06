@@ -10,7 +10,7 @@ import Icon from 'components/Icon';
 
 import './Dropdown.scss';
 
-class Dropdown extends React.PureComponent {
+export class Dropdown extends React.PureComponent {
   static propTypes = {
     isDisabled: PropTypes.bool,
     sortStrategy: PropTypes.string.isRequired,
