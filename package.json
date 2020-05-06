@@ -33,6 +33,11 @@
       "src/**/*.js",
       "!src/**/index.js"
     ],
+    "moduleDirectories": [
+      "src",
+      "redux",
+      "node_modules"
+    ],
     "testMatch": [
       "<rootDir>/src/**/__tests__/**/*.test.js"
     ]
