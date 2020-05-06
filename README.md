@@ -25,6 +25,20 @@ npm start
 npm run build
 ```
 
+## Test
+
+```
+npm run test
+```
+
+While developing tests, run
+
+```
+npm run test:watch
+```
+
+To ensure tests are re-run upon file save.
+
 ## Project structure
 
 ```
