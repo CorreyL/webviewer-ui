@@ -18,6 +18,16 @@
     "test:watch": "jest --watch",
     "translation": "node ./scripts/translate-i18n-files.js"
   },
+  "jest": {
+    "collectCoverage": true,
+    "collectCoverageFrom": [
+      "src/**/*.js",
+      "!src/**/index.js"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.test.js"
+    ]
+  },
   "dependencies": {
     "autolinker": "^3.11.1",
     "classnames": "^2.2.6",
